@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "id": "usr_elena",
+      "username": "elena_vance",
+      "displayName": "Elena Vance",
+      "email": "elena@meridian.example",
+      "passwordHash": "43aa6c1f8bb45ae6fc6450b075a73d02:2fbe17c5bb5afc123a112083e68fa739ff092653067132b61f15d9f332249533895d6e74f7495f79de4b51f1eb69c63c71a08fd99ff2da7526b27e866316c5ed",
+      "bio": "Design systems lead and architectural typographer. Building calm tools for long-form thinking.",
+      "location": "Zurich, CH",
+      "website": "elenavance.design",
+      "avatarUrl": "/media/avatar-elena.svg",
+      "coverColor": "#1E3A8A",
+      "createdAt": "2026-07-23T18:08:51.243Z",
+      "isDemoAccount": true
+    },
+    {
+      "id": "usr_marcus",
+      "username": "marcus_chen",
+      "displayName": "Marcus Chen",
+      "email": "marcus@meridian.example",
+      "passwordHash": "43aa6c1f8bb45ae6fc6450b075a73d02:2fbe17c5bb5afc123a112083e68fa739ff092653067132b61f15d9f332249533895d6e74f7495f79de4b51f1eb69c63c71a08fd99ff2da7526b27e866316c5ed",
+      "bio": "Documentary photographer & cartography nerd. Chasing coastal light and quiet public spaces.",
+      "location": "Vancouver, CA",
+      "website": "marcuschen.studio",
+      "avatarUrl": "/media/avatar-marcus.svg",
+      "coverColor": "#334155",
+      "createdAt": "2026-08-14T18:08:51.243Z",
+      "isDemoAccount": true
+    },
+    {
+      "id": "usr_priya",
+      "username": "priya_nair",
+      "displayName": "Priya Nair",
+      "email": "priya@meridian.example",
+      "passwordHash": "43aa6c1f8bb45ae6fc6450b075a73d02:2fbe17c5bb5afc123a112083e68fa739ff092653067132b61f15d9f332249533895d6e74f7495f79de4b51f1eb69c63c71a08fd99ff2da7526b27e866316c5ed",
+      "bio": "Distributed systems engineer writing about local-first storage, SQLite internals, and reliable APIs.",
+      "location": "Bengaluru, IN",
+      "website": "priyanair.dev",
+      "avatarUrl": "/media/avatar-priya.svg",
+      "coverColor": "#0F172A",
+      "createdAt": "2026-08-28T18:08:51.243Z",
+      "isDemoAccount": true
+    },
+    {
+      "id": "usr_julian",
+      "username": "julian_mercer",
+      "displayName": "Julian Mercer",
+      "email": "julian@meridian.example",
+      "passwordHash": "43aa6c1f8bb45ae6fc6450b075a73d02:2fbe17c5bb5afc123a112083e68fa739ff092653067132b61f15d9f332249533895d6e74f7495f79de4b51f1eb69c63c71a08fd99ff2da7526b27e866316c5ed",
+      "bio": "Industrial designer working between stoneware ceramics and machined aluminum desk instruments.",
+      "location": "Portland, US",
+      "website": "mercerworkshop.co",
+      "avatarUrl": "/media/avatar-julian.svg",
+      "coverColor": "#475569",
+      "createdAt": "2026-09-19T18:08:51.243Z",
+      "isDemoAccount": true
+    },
+    {
+      "id": "usr_claire",
+      "username": "claire_moreau",
+      "displayName": "Claire Moreau",
+      "email": "claire@meridian.example",
+      "passwordHash": "43aa6c1f8bb45ae6fc6450b075a73d02:2fbe17c5bb5afc123a112083e68fa739ff092653067132b61f15d9f332249533895d6e74f7495f79de4b51f1eb69c63c71a08fd99ff2da7526b27e866316c5ed",
+      "bio": "Essayist and print publisher documenting small independent bookshops and community libraries.",
+      "location": "Lyon, FR",
+      "website": "ateliermoreau.fr",
+      "avatarUrl": "/media/avatar-claire.svg",
+      "coverColor": "#292524",
+      "createdAt": "2026-10-06T18:08:51.243Z",
+      "isDemoAccount": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "pst_1",
+      "authorId": "usr_elena",
+      "content": "Spent the morning auditing our editorial grid proportions. Switching from arbitrary 12px card padding to strict harmonic ratios immediately calmed down every dense view in the app.",
+      "imageUrl": "/media/post-architecture.svg",
+      "imageAlt": "Editorial grid proportion study on drafting board",
+      "createdAt": "2026-11-20T17:40:51.243Z"
+    },
+    {
+      "id": "pst_2",
+      "authorId": "usr_marcus",
+      "content": "First light breaking over the basalt headlands at 05:40. Twenty minutes of clear stillness before the coastal fog rolled back in across the channel.",
+      "imageUrl": "/media/post-topography.svg",
+      "imageAlt": "Coastal horizon study at dawn",
+      "createdAt": "2026-11-20T16:33:51.243Z"
+    },
+    {
+      "id": "pst_3",
+      "authorId": "usr_priya",
+      "content": "Hot take: most social web apps feel sluggish not because of network latency, but because they block simple actions like liking or following behind full feed refetches. Optimistic state + idempotent REST endpoints solve 95% of it.",
+      "createdAt": "2026-11-20T14:58:51.243Z"
+    },
+    {
+      "id": "pst_4",
+      "authorId": "usr_julian",
+      "content": "Unloaded the reduction kiln after a 36-hour cool-down. This matte iron-speckled glaze finally settled into the exact warm limestone finish I have been testing since September.",
+      "imageUrl": "/media/post-ceramics.svg",
+      "imageAlt": "Stoneware vessels on studio timber shelf",
+      "createdAt": "2026-11-20T12:48:51.243Z"
+    },
+    {
+      "id": "pst_5",
+      "authorId": "usr_claire",
+      "content": "Visited a neighborhood lending library in Croix-Rousse that catalogs every margin note left by previous readers in a physical ledger at the front desk. Instant community memory.",
+      "createdAt": "2026-11-20T09:08:51.243Z"
+    },
+    {
+      "id": "pst_6",
+      "authorId": "usr_elena",
+      "content": "Reminder when building typography scales: tabular numerals (font-variant-numeric: tabular-nums) are non-negotiable anywhere counters tick up or down live.",
+      "createdAt": "2026-11-19T18:08:51.243Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_1",
+      "postId": "pst_1",
+      "authorId": "usr_julian",
+      "content": "The blue inset frame balances the dense right-hand column really cleanly.",
+      "createdAt": "2026-11-20T17:50:51.243Z"
+    },
+    {
+      "id": "cmt_2",
+      "postId": "pst_1",
+      "authorId": "usr_priya",
+      "content": "Love seeing the underlying construction lines before final polish.",
+      "createdAt": "2026-11-20T17:57:51.243Z"
+    },
+    {
+      "id": "cmt_3",
+      "postId": "pst_2",
+      "authorId": "usr_claire",
+      "content": "That silver reflection along the ridge line feels so quiet.",
+      "createdAt": "2026-11-20T17:06:51.243Z"
+    },
+    {
+      "id": "cmt_4",
+      "postId": "pst_3",
+      "authorId": "usr_elena",
+      "content": "Agreed. Instant visual feedback within 100ms makes a huge difference in perceived craft.",
+      "createdAt": "2026-11-20T15:48:51.243Z"
+    },
+    {
+      "id": "cmt_5",
+      "postId": "pst_4",
+      "authorId": "usr_marcus",
+      "content": "The tall amber vessel on the right has a wonderful silhouette.",
+      "createdAt": "2026-11-20T13:48:51.243Z"
+    }
+  ],
+  "likes": [
+    {
+      "userId": "usr_marcus",
+      "postId": "pst_1",
+      "createdAt": "2026-11-20T17:48:51.243Z"
+    },
+    {
+      "userId": "usr_priya",
+      "postId": "pst_1",
+      "createdAt": "2026-11-20T17:53:51.243Z"
+    },
+    {
+      "userId": "usr_julian",
+      "postId": "pst_1",
+      "createdAt": "2026-11-20T17:56:51.243Z"
+    },
+    {
+      "userId": "usr_elena",
+      "postId": "pst_2",
+      "createdAt": "2026-11-20T16:48:51.243Z"
+    },
+    {
+      "userId": "usr_claire",
+      "postId": "pst_2",
+      "createdAt": "2026-11-20T17:08:51.243Z"
+    },
+    {
+      "userId": "usr_elena",
+      "postId": "pst_3",
+      "createdAt": "2026-11-20T15:43:51.243Z"
+    },
+    {
+      "userId": "usr_julian",
+      "postId": "pst_3",
+      "createdAt": "2026-11-20T16:08:51.243Z"
+    },
+    {
+      "userId": "usr_marcus",
+      "postId": "pst_4",
+      "createdAt": "2026-11-20T13:48:51.243Z"
+    },
+    {
+      "userId": "usr_elena",
+      "postId": "pst_4",
+      "createdAt": "2026-11-20T14:08:51.243Z"
+    },
+    {
+      "userId": "usr_priya",
+      "postId": "pst_5",
+      "createdAt": "2026-11-20T11:08:51.243Z"
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "usr_elena",
+      "followingId": "usr_marcus",
+      "createdAt": "2026-10-11T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_elena",
+      "followingId": "usr_priya",
+      "createdAt": "2026-10-16T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_elena",
+      "followingId": "usr_julian",
+      "createdAt": "2026-10-31T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_marcus",
+      "followingId": "usr_elena",
+      "createdAt": "2026-10-13T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_marcus",
+      "followingId": "usr_claire",
+      "createdAt": "2026-11-02T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_priya",
+      "followingId": "usr_elena",
+      "createdAt": "2026-10-21T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_julian",
+      "followingId": "usr_elena",
+      "createdAt": "2026-11-05T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_julian",
+      "followingId": "usr_marcus",
+      "createdAt": "2026-11-06T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_claire",
+      "followingId": "usr_marcus",
+      "createdAt": "2026-11-10T18:08:51.243Z"
+    },
+    {
+      "followerId": "usr_claire",
+      "followingId": "usr_julian",
+      "createdAt": "2026-11-11T18:08:51.243Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "fd6c52ffbfcc5deed65b20d49e1d7eb1644d88befe907f39",
+      "userId": "usr_elena",
+      "createdAt": "2026-11-20T18:08:56.979Z"
+    }
+  ]
+}

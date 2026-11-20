@@ -1,0 +1,6 @@
+{
+  "name": "Meridian",
+  "description": "A social media platform for profiles, posts, threaded comments, likes, and follows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
